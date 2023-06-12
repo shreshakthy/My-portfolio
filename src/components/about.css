@@ -1,0 +1,208 @@
+.backcolor{
+  background-color: rebeccapurple;
+}
+.homebtn{
+ 
+  padding: 0.7rem 2rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  background-color: #01be96;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 500;
+  filter: drop-shadow(0px 10px 10px #01be9551);
+  :hover {
+    filter: drop-shadow(0px 10px 10px #01be9570);
+  }
+}
+h4 {
+  padding: 1rem 0;
+  font-weight: 500;
+}
+h1 {
+  font-size: 2rem;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding-bottom: 1.2rem;
+  text-transform: capitalize;
+}
+p {
+  font-weight: 300;
+  
+}
+.green{
+  color: #01be96;
+}
+.projectimg{
+  width: 50%;
+  border-radius: 10px;
+  height: 50%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.projectcardimg{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.projectcard{
+  width: 350px;
+  border: none;  
+}
+.projectcard:hover{
+  /* transform: perspective(900px) translateY(5%) rotate(20deg); */
+  transform: scale(1.15);
+}
+.fullname{
+  width: 500px;
+  height: 50px;
+  border-radius: 5px;
+  border: #01be96;
+}
+.message{
+  width: 500px;
+  border-radius: 5px;
+  border: #01be96;
+}
+.address{
+  text-align: left;
+}
+
+@media screen and (max-width:1200px) {
+  .aboutmain{
+    margin-top: 30px;
+  }
+  .img1{
+    width: 400px;
+    height: 400px;
+  }
+  .projectcard{
+    margin-top: 30px;
+  }
+  .fullname{
+    width: 380px;
+  }
+  .message{
+    width: 380px;
+  }
+  .address{
+    text-align: start;
+  }
+  
+}
+@media screen and (max-width:992px) {
+  .aboutmain{
+    margin-top: 30px;
+  }
+  .img1{
+    width: 500px;
+    height: 500px;
+  }
+  .projectcard{
+    margin-top: 30px;
+       align-content: center;
+  }
+  .fullname{
+    width: 550px;
+  }
+  .message{
+    width: 550px;
+  }
+ 
+}
+@media screen and (max-width:768px ) {
+  .aboutmain{
+    margin-top: 30px;
+  }
+.img1{
+  width: 350px;
+  height: 400px;
+}
+.project{
+  margin-top: 60px;
+}
+.projectcard{
+  margin-top: 30px;
+     align-content: center;
+}
+.fullname{
+  width: 500px;
+}
+.message{
+  width: 500px;
+}
+}
+@media screen and (max-width:580px ) {
+  .aboutmain{
+    margin-top: 30px;
+  }
+.img1{
+  width: 350px;
+  height: 400px;
+}
+.project{
+  margin-top: 60px;
+}
+.projectcard{
+  margin-top: 30px;
+     align-content: center;
+}
+.fullname{
+  width: 500px;
+}
+.message{
+  width: 500px;
+}
+}
+@media screen and (max-width:511px ) {
+  .aboutmain{
+    margin-top: 30px;
+  }
+.img1{
+  width: 350px;
+  height: 400px;
+}
+.project{
+  margin-top: 60px;
+}
+.projectcard{
+  margin-top: 30px;
+     align-content: center;
+}
+.fullname{
+  width: 400px;
+}
+.message{
+  width: 400px;
+}
+}
+
+@media screen and (max-width:390px) {
+.img1{
+  width: 300px;
+  height: 400px;
+}
+.aboutmain{
+  margin-top: 30px;
+}
+.project{
+  margin-top: 60px;
+}
+.projectcard{
+  margin-top: 30px;
+  width: 300px;
+}
+.fullname{
+  width: 300px;
+}
+.message{
+  width: 300px;
+}
+}
